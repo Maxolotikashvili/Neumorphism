@@ -1,1 +1,1 @@
-# Neumorphism made with CSS and Vanilla Javascript
+# Neumorphism Waves made with HTML and CSS
