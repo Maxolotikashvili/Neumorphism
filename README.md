@@ -1,2 +1,2 @@
-# Neumorphism Waves
-Waves made with HTML and CSS
+# Neumorphism 
+Made with HTML and CSS
