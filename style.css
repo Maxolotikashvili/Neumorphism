@@ -1,7 +1,7 @@
 :root {
     --gray: #e0e5ec;
     --size: 25vw;
-    --scalingFactor: calc(100 / 25);
+    --scalingFactor: calc(100 / 15);
 }
 
 body {
@@ -18,10 +18,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: var(--size);
-    width: var(--size);
+    width: 300px;
+    height: 300px;
     margin: 10px;
-    background: var(--gray);
+    background: darkgreen;
     box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6), -5px -5px 10px rgba(255, 255, 255, 0.5);
     border-radius: 50%;
 }
@@ -31,8 +31,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(0, 0, 0, 0.5);
-    letter-spacing: 0.05em;
+    color: black;
+    letter-spacing: 2px;
     cursor: pointer;
 }
 
@@ -50,7 +50,7 @@ body {
 #trigger:checked+.trigger+.dots>.dot {
     animation-name: wave;
     animation-timing-function: ease-in-out;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
